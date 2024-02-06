@@ -1,0 +1,306 @@
+body {
+    margin: 0px;
+    background-color: #B3E1B8;
+    width: 100%;
+    min-width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0F7E3B;
+    width: 100%;
+}
+main {
+    margin-bottom: 70px;
+}
+
+header img {
+    margin: 10px;
+}
+
+.logo {
+    width: 190px;
+}
+
+.watis {
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 17px;
+    background-image: url(images/moestuinbak.jpg);
+}
+
+.watis p {
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background-color: #476947; 
+    margin: 15px;
+    border-radius: 5%;
+    padding: 5%;
+    font-family: 'Teko', sans-serif;
+}
+
+.home {
+    font-family: 'Anton', sans-serif;
+}
+
+.home h2 {
+    font-size: 240%;
+    margin-left: 30px;
+    margin-bottom: -80px;
+    padding: 0px;
+}
+
+.watis h1 {
+    padding: 5px;
+    color: white;
+}
+
+.home article {
+    background-color: #476947;
+    border-radius: 5%;
+    margin: 10px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.home article a {
+    background-color: #11f46b;
+    border-radius: 5px;
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.home article img {
+    margin: 9px;
+    border-radius: 5%;
+}
+
+.missie {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    margin-right: 10px;
+    background-color: #476947;
+    border-radius: 5px;
+    margin-left: -5px;
+    letter-spacing: 1px;
+}
+
+.missie p {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 130%;
+}
+
+.home h4 {
+    font-size: 190%;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.missie div {
+    font-size: 70%;
+}
+
+.missie img {
+    width: 130px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #0F7E3B;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.planten .een {
+    background-color:#11f46b;
+}
+
+.home .twee {
+    background-color:#11f46b;
+}
+
+.help .drie {
+    background-color:#11f46b;
+}
+
+footer img {
+    height: 30px;
+    background-color: #0F7E3B;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+footer img:active {
+    transform: scale(0.8);
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 20px;
+    padding-bottom: 10px;
+}
+
+.help_ons {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.help_ons p {
+    font-family: 'Teko', sans-serif;
+}
+
+.help {
+    font-family: 'Anton', sans-serif;
+}
+
+.help_ons div {
+    background-color: #476947;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+
+.help_ons a {
+    background-color: #11f46b;
+    text-decoration: none;
+    color: black;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -35px;
+    border-radius: 5px;
+}
+
+.help_ons a:active {
+    transform: scale(0.8);
+}
+
+
+.help h2 {
+    font-size: 200%;
+}
+
+.tuinbeheerder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.tuinbeheerder img {
+    width: 300px;
+    margin: 0px;
+    border-radius: 20px;
+}
+
+.tuinbeheerder div {
+    width: 300px;
+    background-color: #476947;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    font-size: 140%;
+}
+
+.inschrijf h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.inschrijf form {
+    background-color: #476947;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 130%;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 8px;
+    border: 0px;
+}
+
+.inschrijf form div input {
+    font-family: 'Teko', sans-serif;
+    font-size: 120%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #11f46b;
+    border-style: none;
+}
+
+.inschrijf form div input:active {
+    transform: scale(0.8);
+    background-color:#B3E1B8;
+}
+
+.inschrijf form input {
+    padding: 5px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.planten h1 {
+    display: flex;
+    justify-content: start;
+    margin-left: 18px;
+    margin-right: 0px;
+}
+
+.planten section p {
+    background-color: #476947;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Teko', sans-serif;
+    font-size: 120%;
+    margin-left: 5px;
+    margin-right: 8px;
+    padding-top: 30px;
+    margin-left: 40px;
+}
+
+.planten section h2 {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-family: 'Anton', sans-serif;
+    font-size: 200%;
+    margin-bottom: -43px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+}
+
+.planten h1 {
+    font-family: 'Anton', sans-serif;
+}
